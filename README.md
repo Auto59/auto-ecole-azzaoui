@@ -57,9 +57,9 @@
 
 <section id="contact" class="section">
   <h2>Contact</h2>
-  <p>Téléphone : 06xxxxxxxx</p>
+  <p>Téléphone :+212 6 13 31 74 39 </p>
   <p>Email : info@autoecoleazzaoui.com</p>
-  <p>Adresse : Emmeloord, Pays-Bas</p>
+  <p>Adresse :Lot N° 2176, RCE IDRISS 2, 2 BUR N° 1, Haddada, Kenitra, Marokko </p>
 </section>
 
 <footer class="footer">
