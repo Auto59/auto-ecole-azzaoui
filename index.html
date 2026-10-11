@@ -6,7 +6,7 @@
     <title>Auto59 | مدرسة تعليم السياقة</title>
     <meta
       name="description"
-      content="Auto59 مدرسة تعليم السياقة، دروس القيادة، ورخصة السياقة مع مدربين محترفين ومواعيد مرنة."
+      content="Auto59 هي مدرسة تعليم السياقة المتخصصة في اﻟﻘﻴﺎدة الآمنة، ورخصة السياقة، ودروس القيادة العملية والنظرية."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
   <body>
     <header class="site-header">
       <div class="container nav">
-        <div class="brand">
+        <div class="brand" aria-label="Auto59">
           <div class="brand-mark">A59</div>
           <div>
             <strong>Auto59</strong>
@@ -31,8 +31,8 @@
           <a href="#home">الرئيسية</a>
           <a href="#about">من نحن</a>
           <a href="#services">خدماتنا</a>
+          <a href="#process">كيف نعمل</a>
           <a href="#pricing">الأسعار</a>
-          <a href="#instructors">المدربين</a>
           <a href="#contact">تواصل معنا</a>
         </nav>
 
@@ -42,85 +42,93 @@
 
     <main>
       <section class="hero" id="home">
-        <div class="container hero-content">
-          <div class="hero-text">
-            <span class="eyebrow">أكثر من 10 سنوات خبرة</span>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">مدرسة موثوقة لتعليم القيادة</span>
             <h1>تعلم القيادة بثقة وأمان مع Auto59</h1>
             <p>
-              نقدم دروساً عملية ونظرية موجهة وفق أعلى معايير السلامة المرورية، مع
-              مدربين متخصصين ومواعيد مرنة لتناسب جدولك اليومي.
+              نوفر برامج تعليمية متخصصة في القيادة الآمنة، مع مدربين مؤهلين ودروس
+              عملية ونظرية مصممة لتناسب جميع المستويات، من المبتدئين إلى المتقدمين.
             </p>
+
             <div class="hero-actions">
               <a href="#contact" class="btn btn-primary">احجز استشارة مجانية</a>
-              <a href="#services" class="btn btn-secondary">اكتشف خدماتنا</a>
+              <a href="#services" class="btn btn-secondary">استعرض الخدمات</a>
             </div>
 
-            <ul class="hero-stats">
-              <li><strong>+5000</strong><span>طالب</span></li>
-              <li><strong>96%</strong><span>نجاح</span></li>
-              <li><strong>24/7</strong><span>دعم</span></li>
-            </ul>
+            <div class="stats-grid">
+              <div>
+                <strong>+5000</strong>
+                <span>طالب</span>
+              </div>
+              <div>
+                <strong>96%</strong>
+                <span>نجاح</span>
+              </div>
+              <div>
+                <strong>15+</strong>
+                <span>مدرب</span>
+              </div>
+            </div>
           </div>
 
-          <div class="hero-card">
-            <div class="card-head">
-              <span>برنامج القيادة</span>
-              <strong>الأساسي</strong>
+          <div class="hero-card-wrap">
+            <div class="hero-card">
+              <div class="card-head">
+                <span>باقة القيادة</span>
+                <strong>الأساسية</strong>
+              </div>
+              <div class="card-price">
+                <span>من</span>
+                <strong>400</strong>
+                <span>د.م</span>
+              </div>
+              <ul>
+                <li>دروس نظرية وتطبيقية</li>
+                <li>مواعيد مرنة</li>
+                <li>جلسات تدريب شخصية</li>
+                <li>استشارة استعداد للاختبار</li>
+              </ul>
+              <a href="#pricing" class="btn btn-primary full">شاهد الأسعار</a>
             </div>
-            <div class="card-price">
-              <span>من</span>
-              <strong>400</strong>
-              <span>د.م</span>
-            </div>
-            <ul>
-              <li>دروس نظرية وتطبيقية</li>
-              <li>مواعيد مرنة</li>
-              <li>مدربون محترفون</li>
-              <li>استشارة قبل الاختبار</li>
-            </ul>
-            <a href="#pricing" class="btn btn-primary full">اطّلع على الأسعار</a>
           </div>
         </div>
       </section>
 
       <section class="trust-bar">
-        <div class="container trust-grid">
-          <div>تدريب شخصي</div>
-          <div>سيارات حديثة</div>
-          <div>مواعيد مرنة</div>
-          <div>دروس للنساء والرجال</div>
+        <div class="container trust-list">
+          <span>تدريب شخصي</span>
+          <span>سيارات حديثة</span>
+          <span>مواعيد مرنة</span>
+          <span>دروس للرجال والنساء</span>
         </div>
       </section>
 
       <section class="section" id="about">
-        <div class="container two-col">
-          <div class="section-image">
-            <div class="image-panel">
-              <div class="badge">التميز في التعليم</div>
-            </div>
+        <div class="container split">
+          <div class="image-panel">
+            <div class="floating-badge">التميز في التعليم</div>
           </div>
-
           <div class="section-copy">
             <span class="eyebrow">من نحن</span>
-            <h2>مدرسة تعليم السياقة التي تعطيك الثقة على الطريق</h2>
+            <h2>مدرسة تعليم السياقة التي تزرع الثقة في كل سائق</h2>
             <p>
-              في Auto59 نؤمن أن القيادة الآمنة تبدأ بتعليم متقن يركز على المهارات
-              العملية، احترام قواعد المرور، وتطوير الوعي المروري. هدفنا أن يصبح
-              كل طالب سائقًا مسؤولاً وثقة بنفسه عند القيادة في كل الظروف.
+              في Auto59 نركز على القيادة الآمنة واحترام قوانين المرور، مع برنامج تدريبي
+              يراعي مستوى كل طالب ويعزّز مهاراته تدريجيًا حتى يصبح يقظًا وملمًا بجميع
+              قواعد الطريق.
             </p>
             <p>
-              نوفر برامج تعليمية مخصصة لكل مستوى، من المبتدئين إلى المتقدمين، مع
-              متابعة دقيقة ومواعيد مناسبة لتسهيل التحضير للامتحانات والاختبارات.
+              نوفر بيئة تعليمية مريحة، مدربين ذوي خبرة، وسيارات مناسبة للتدريب، مع
+              متابعة مستمرة لضمان حصول كل طالب على أفضل نتائج ممكنة في الاختبارات.
             </p>
-
-            <div class="feature-inline">
+            <div class="mini-stats">
               <div>
-                <strong>15+</strong>
-                <span>مدرب متخصص</span>
+                <strong>10+</strong>
+                <span>سنوات خبرة</span>
               </div>
               <div>
                 <strong>1000+</strong>
-                <span>مستفيد</span>
+                <span>طالب مستفيد</span>
               </div>
             </div>
           </div>
@@ -131,36 +139,68 @@
         <div class="container">
           <div class="section-head center">
             <span class="eyebrow">خدماتنا</span>
-            <h2>خدمات تعليم القيادة المصممة لك</h2>
+            <h2>حلول تعليم القيادة حسب كل مستوى</h2>
           </div>
 
           <div class="cards three-col">
             <article class="info-card">
               <div class="icon">🚗</div>
               <h3>دروس القيادة الأساسية</h3>
-              <p>دروس شاملة حول الانطلاق، التوقف، الإشارة، المناورات، واتباع قواعد السلامة.</p>
+              <p>تعلّم أساسيات المناورة، التوقف، الانطلاق، وتنظيم الطريق داخل المدينة.</p>
             </article>
 
             <article class="info-card">
               <div class="icon">🛣️</div>
-              <h3>تدريب على الطريق</h3>
-              <p>تدريب عملي على الطريق داخل المدينة والطرق السريعة مع متابعة دقيقة من المدرب.</p>
+              <h3>تدريب على الطرق</h3>
+              <p>تعزيز التحكم في السيارة في ظروف الطريق الحقيقية ورفع مستوى الثقة.</p>
             </article>
 
             <article class="info-card">
               <div class="icon">📚</div>
-              <h3>دروس نظرية ومراجعة</h3>
-              <p>شرح القواعد المرورية، التجارب العملية، والاستعداد للاختبارات والامتحان النهائي.</p>
+              <h3>دروس نظرية وامتحانات</h3>
+              <p>شرح القوانين المرورية، مراجعة الاختبارات، والاستعداد للاختبار النهائي.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="pricing">
+      <section class="section" id="process">
+        <div class="container">
+          <div class="section-head center">
+            <span class="eyebrow">كيف نعمل</span>
+            <h2>عملية تدريب منظمة وسريعة</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-card">
+              <span>01</span>
+              <h3>تقييم المستوى</h3>
+              <p>نقوم بتحديد مستوى الطالب أولاً لتحديد الخطة التعليمية المناسبة.</p>
+            </div>
+            <div class="process-card">
+              <span>02</span>
+              <h3>برمجة الدروس</h3>
+              <p>نضع خطة تدريبية زمنية مناسبة ومتكاملة وفق رغبة الطالب.</p>
+            </div>
+            <div class="process-card">
+              <span>03</span>
+              <h3>تدريب عملي</h3>
+              <p>تطبيق مهارات القيادة بشكل عملي مع شرح فوري للملاحظات والتحسينات.</p>
+            </div>
+            <div class="process-card">
+              <span>04</span>
+              <h3>الاستعداد للاختبار</h3>
+              <p>نساعدك في المراجعة النهائية، تقوية الثقة، والاستعداد للامتحان.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="pricing">
         <div class="container">
           <div class="section-head center">
             <span class="eyebrow">الأسعار</span>
-            <h2>خطط مناسبة لكل احتياج</h2>
+            <h2>باكجات مناسبة لكل احتياج</h2>
           </div>
 
           <div class="pricing-grid">
@@ -169,10 +209,10 @@
               <div class="price"><strong>400</strong><span>د.م</span></div>
               <ul>
                 <li>10 ساعات تدريب</li>
-                <li>جلسة مراجعة مجانية</li>
+                <li>جلسة مراجعة</li>
                 <li>دعم عبر الهاتف</li>
               </ul>
-              <a href="#contact" class="btn btn-secondary">اختر الباقة</a>
+              <a href="#contact" class="btn btn-secondary">اختر هذه الباقة</a>
             </div>
 
             <div class="price-card featured">
@@ -184,7 +224,7 @@
                 <li>استشارة استعداد للاختبار</li>
                 <li>أولوية في المواعيد</li>
               </ul>
-              <a href="#contact" class="btn btn-primary">اختر الباقة</a>
+              <a href="#contact" class="btn btn-primary">اختر هذه الباقة</a>
             </div>
 
             <div class="price-card">
@@ -192,52 +232,45 @@
               <div class="price"><strong>1200</strong><span>د.م</span></div>
               <ul>
                 <li>30 ساعة تدريب</li>
-                <li>خطة شخصية كاملة</li>
-                <li>متابعة مباشرة ومخصصة</li>
+                <li>خطة تدريبية شخصية</li>
+                <li>متابعة مباشرة</li>
               </ul>
-              <a href="#contact" class="btn btn-secondary">اختر الباقة</a>
+              <a href="#contact" class="btn btn-secondary">اختر هذه الباقة</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section alt" id="instructors">
+      <section class="section testimonial-section">
         <div class="container">
           <div class="section-head center">
-            <span class="eyebrow">المدربون</span>
-            <h2>مدرسون ذوو خبرة ومهارة</h2>
+            <span class="eyebrow">آراء الطلاب</span>
+            <h2>ماذا يقول طلابنا عن تجربتهم؟</h2>
           </div>
 
-          <div class="cards three-col">
-            <article class="teacher-card">
-              <div class="avatar">م</div>
-              <h3>محمد أمين</h3>
-              <p>مدرب قيادة متقدم، خبرة 12 سنة في تعليم السيارات والقيادة الآمنة.</p>
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <p>
+                “تعلمت القيادة بثقة كبيرة في Auto59، والمدرب شرح لي كل شيء بطريقة واضحة
+                ومبسطة. شكراً لفريق العمل.”
+              </p>
+              <strong>— ياسر م.</strong>
             </article>
 
-            <article class="teacher-card">
-              <div class="avatar">س</div>
-              <h3>سارة رحيم</h3>
-              <p>مختصة في تدريب المبتدئين وتطوير ثقة الطلاب في القيادة اليومية.</p>
+            <article class="testimonial-card">
+              <p>
+                “مواعيد مرنة وجودة التدريب ممتازة جدًا، كما أنني حصلت على الدعم اللازم
+                قبل الاختبار النهائي.”
+              </p>
+              <strong>— نادية ر.</strong>
             </article>
 
-            <article class="teacher-card">
-              <div class="avatar">ع</div>
-              <h3>عبد الكريم</h3>
-              <p>متخصص ��ي تدريبudiantes على الطرق ومراجعة الاستعداد للاختبار العملي.</p>
+            <article class="testimonial-card">
+              <p>
+                “أحببت أسلوب المدربين والاهتمام بالتفاصيل، وأنا الآن أقود بثقة وأنا سعيد.”
+              </p>
+              <strong>— علي ب.</strong>
             </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section testimonial-box">
-        <div class="container">
-          <div class="testimonial">
-            <p>
-              “شكرًا لمدرسة Auto59، لقد تعلمت القيادة بثقة وأتممت الاختبار بنجاح
-              في المرة الأولى. أسلوب المدربين ممتاز جدًا.”
-            </p>
-            <strong>— ياسر م.</strong>
           </div>
         </div>
       </section>
@@ -247,7 +280,7 @@
           <div class="contact-copy">
             <span class="eyebrow">تواصل معنا</span>
             <h2>ابدأ رحلتك نحو القيادة بثقة</h2>
-            <p>تواصل معنا اليوم للحصول على استشارة مجانية وتحديد أفضل خطة تدريب لك.</p>
+            <p>تواصل معنا اليوم للحصول على استشارة مجانية، أو حجز أول درس لك.</p>
             <ul>
               <li>📍 العنوان: شارع المدينة، حي الخليج</li>
               <li>📞 الهاتف: +213 555 123 456</li>
@@ -258,12 +291,12 @@
           <form class="contact-form" id="contactForm">
             <div class="field-group">
               <label for="name">الاسم الكامل</label>
-              <input id="name" name="name" type="text" placeholder="أدخل اسمك" />
+              <input id="name" name="name" type="text" placeholder="اكتب اسمك" />
             </div>
 
             <div class="field-group">
               <label for="phone">رقم الهاتف</label>
-              <input id="phone" name="phone" type="tel" placeholder="أدخل رقم الهاتف" />
+              <input id="phone" name="phone" type="tel" placeholder="اكتب رقم الهاتف" />
             </div>
 
             <div class="field-group">
@@ -278,7 +311,7 @@
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-content">
+      <div class="container footer-row">
         <p>© 2026 Auto59. جميع الحقوق محفوظة.</p>
         <a href="https://wa.me/213555123456" target="_blank" rel="noreferrer">واتساب</a>
       </div>
@@ -291,7 +324,7 @@
       rel="noreferrer"
       aria-label="تواصل عبر واتساب"
     >
-      WhatsApp
+      واتساب
     </a>
 
     <script src="script.js"></script>
